@@ -1,4 +1,4 @@
-package condition;
+package loop;
 
 public class FlowEx12 {
     public static void main(String[] args) {

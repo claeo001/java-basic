@@ -1,4 +1,4 @@
-package condition;
+package loop;
 
 import java.util.Scanner;
 
