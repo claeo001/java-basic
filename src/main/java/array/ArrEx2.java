@@ -1,0 +1,34 @@
+package array;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+/*
+    배열 길이에 대한 정보는 .length 로 알 수 있다.
+    반복문을 사용하면 초기화와 선언을 같이 할수 있다.
+ */
+public class ArrEx2 {
+    public static void main(String[] args) {
+        int[] iArr1 = new int[10];
+        int[] iArr2 = new int[10];
+        int[] iArr3 = new int[]{100, 95, 80, 70, 60};
+        int[] iArr4 = {100, 95, 80, 70, 60};
+        char[] chArr = {'a', 'b', 'c', 'd'};
+        for (int i = 0; i < iArr1.length; i++) {
+            iArr1[i] = i+1;
+        }
+        for (int i = 0; i < iArr2.length; i++) {
+            iArr2[i] = (int)(Math.random()*10) + 1;
+        }
+        for (int i = 0; i < iArr1.length; i++) {
+            System.out.print(iArr1[i]+",");
+        }
+
+        System.out.println();
+        System.out.println(Arrays.toString(iArr2));
+        System.out.println(Arrays.toString(iArr2));
+        System.out.println(Arrays.toString(chArr));
+        System.out.println(iArr3);
+        System.out.println(chArr);
+    }
+}
